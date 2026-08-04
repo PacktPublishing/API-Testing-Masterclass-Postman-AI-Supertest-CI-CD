@@ -1,0 +1,6 @@
+Required Software:
+- Chrome Web Browser (FREE)
+- Visual Studio Code (FREE)
+- Github Account (FREE)
+- Claude.ai Account (FREE)
+- Postman (FREE)
