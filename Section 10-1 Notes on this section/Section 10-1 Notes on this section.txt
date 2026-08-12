@@ -1,0 +1,59 @@
+The cURL section can be a little tricky. Feel free to just watch the videos and skip the hands-on part yourself.
+
+Different terminals handle commands differently. Windows Command Prompt, PowerShell, Git Bash, macOS Terminal, and Linux shells all have small differences in how they interpret quotes, escape characters, line breaks, and environment variables. Because of that, a command that works perfectly on my machine may need slight adjustments on yours.
+
+
+
+For example:
+
+Windows often requires double quotes instead of single quotes.
+
+PowerShell sometimes treats headers differently.
+
+Line continuation characters differ between shells.
+
+Environment variable syntax is not the same across operating systems.
+
+
+
+It is not realistic to cover every terminal variation in one video. The goal of this section is to help you understand the structure of a cURL request:
+
+HTTP method
+
+URL
+
+Headers
+
+Body
+
+
+
+If your command does not work exactly as shown, compare:
+
+Your shell environment.
+
+How quotes are written.
+
+Whether escape characters are required.
+
+
+
+Also, keep in mind: the other tools we have already learned, such as Postman and automated API testing frameworks, are usually better and more user-friendly for daily QA work. They provide structured interfaces, saved environments, collections, and reporting.
+
+
+
+cURL is useful when:
+
+You need a quick terminal-based request.
+
+You are debugging on a server.
+
+You are working in CI pipelines.
+
+You do not have GUI tools available.
+
+
+
+Think of cURL as a low-level interface to HTTP.
+
+This section is mainly to make you aware that it exists and to understand how raw HTTP requests look under the hood.
